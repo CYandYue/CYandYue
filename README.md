@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @CYandYue
-- 👀 I’m interested in codeing and automation
+- 👀 I’m interested in coding and automation
 - 🌱 I’m currently learning cpp and python
 - 💞️ I’m looking to collaborate on automation
 
