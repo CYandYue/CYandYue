@@ -1,12 +1,6 @@
 <!DOCTYPE html> <!-- 声明文档类型为HTML5 -->
 <html lang="en"> <!-- 根元素，设置语言为英语 -->
  
-<head>
-  <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8，这是一种广泛使用的国际字符编码 -->
-  <title>1</title> <!-- 定义了网页的标题，这将显示在浏览器的标题栏或页面的标签上 -->
-  <link rel="stylesheet" href="./style.css"> <!-- 引入外部CSS样式表，位于当前HTML文件同一目录下的style.css文件 -->
-</head>
- 
 <body><!-- 网页的主体部分开始 -->
 <svg viewBox="0 0 100 100"><!-- SVG元素开始，定义了一个视口（viewBox），这是一个用于定义SVG画布大小和位置的属性。这里的值表示画布大小为100x100单位。 -->
  
