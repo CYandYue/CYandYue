@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning cpp and python
 - 💞️ I’m looking to collaborate on automation -->
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/CYandYUE/CYandYUE/main/resources/svg/circle.svg" alt="CYandYUE" />
+  <img src="https://github.com/CYandYue/CYandYue/blob/main/resources/svg/circle.svg" alt="CYandYUE" />
 </h1>
 
 &nbsp;<div align="center">
