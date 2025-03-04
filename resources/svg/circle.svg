@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- 声明文档类型为HTML5 -->
+<html lang="en"> <!-- 根元素，设置语言为英语 -->
+ 
+<head>
+  <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8，这是一种广泛使用的国际字符编码 -->
+  <title>1</title> <!-- 定义了网页的标题，这将显示在浏览器的标题栏或页面的标签上 -->
+  <link rel="stylesheet" href="./style.css"> <!-- 引入外部CSS样式表，位于当前HTML文件同一目录下的style.css文件 -->
+</head>
+ 
+<body><!-- 网页的主体部分开始 -->
+<svg viewBox="0 0 100 100"><!-- SVG元素开始，定义了一个视口（viewBox），这是一个用于定义SVG画布大小和位置的属性。这里的值表示画布大小为100x100单位。 -->
+ 
+	<g stroke-width="20"><!-- 定义了一个组（group）元素，所有包含在其中的图形都将应用定义的描边宽度为20单位。 -->
+		<g transform="rotate(0 50 50)"><!-- 定义了一个嵌套的组元素，并应用了一个旋转变换。这里的参数表示围绕中心点（50, 50）进行0度的旋转，这通常是为了将图形定位在正确的起始位置。 -->
+			<circle cx="50" cy="50" r="0" stroke="#012" stroke-dasharray="0 9 6 4 5" fill="none"><!-- 定义了一个圆形元素，其中心位于（50, 50），半径初始值为0，描边颜色为#012（一种深蓝色），stroke-dasharray定义了描边的虚线样式。fill="none"表示图形内部不填充颜色。 -->
+				<animate attributeName="r" values="0; 100" dur="30s" begin="0s" repeatCount="indefinite" /><!-- 定义了一个动画元素，它将改变圆形的半径属性（attributeName="r"），值从0变化到100，动画持续时间为30秒（dur="30s”），从0秒开始（begin="0s"），并且无限重复（repeatCount="indefinite"）。 -->
+			</circle>
+		</g>
+		
+		<g transform="rotate(60 50 50)">
+			<circle cx="50" cy="50" r="0" stroke="#345" stroke-dasharray="4 8 4 6 2" fill="none">
+				<animate attributeName="r" values="0; 100" dur="30s" begin="-2s" repeatCount="indefinite" />
+			</circle>
+		</g>
+		
+		<g transform="rotate(120 50 50)">
+			<circle cx="50" cy="50" r="0" stroke="#678" stroke-dasharray="2 7 9 9 6" fill="none">
+				<animate attributeName="r" values="0; 100" dur="30s" begin="-4s" repeatCount="indefinite" />
+			</circle>
+		</g>
+		
+		<g transform="rotate(180 50 50)">
+			<circle cx="50" cy="50" r="0" stroke="#9ab" stroke-dasharray="8 8 3 7 7" fill="none">
+				<animate attributeName="r" values="0; 100" dur="30s" begin="-6s" repeatCount="indefinite" />
+			</circle>
+		</g>
+		
+		<g transform="rotate(240 50 50)">
+			<circle cx="50" cy="50" r="0" stroke="#cde" stroke-dasharray="1 5 6 7 5" fill="none">
+				<animate attributeName="r" values="0; 100" dur="30s" begin="-8s" repeatCount="indefinite" />
+			</circle>
+		</g>
+ 
+	</g>
+</svg><!-- SVG元素结束 -->
+</body>
+</html>
