@@ -1,0 +1,37 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes particleMove {
+      0% { opacity: 1; transform: translateY(0) translateX(0); }
+      100% { opacity: 0; transform: translateY(-20px) translateX(10px); }
+    }
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      fill: url(#grad);
+      animation: wave 1.5s infinite ease-in-out alternate;
+    }
+    circle {
+      fill: rgba(255, 255, 255, 0.7);
+      animation: particleMove 1.5s infinite ease-out;
+    }
+  </style>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff7eb3; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5b8df6; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="20" y="60">CYandYUE</text>
+  
+  <!-- 粒子效果 -->
+  <circle cx="50" cy="70" r="3" style="animation-delay: 0s;" />
+  <circle cx="100" cy="80" r="2" style="animation-delay: 0.3s;" />
+  <circle cx="150" cy="75" r="4" style="animation-delay: 0.6s;" />
+  <circle cx="200" cy="85" r="3" style="animation-delay: 0.9s;" />
+  <circle cx="250" cy="78" r="2" style="animation-delay: 1.2s;" />
+</svg>
