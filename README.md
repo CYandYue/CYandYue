@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/CYandYue/CYandYue/main/resources/name.svg" alt="CYandYUE" />
+  <img src="https://raw.githubusercontent.com/CYandYue/CYandYue/main/resources/svg/name.svg" alt="CYandYUE" />
 </h1>
 
 &nbsp;<div align="center">
