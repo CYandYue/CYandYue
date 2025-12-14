@@ -16,7 +16,11 @@
       </picture>
     </td>
     <td align="right">
-      <img height="150" src="https://github-readme-stats.vercel.app/api?username=CYandYue&count_private=true&show_icons=true&theme=tokyonight" alt="GitHub stats"/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CYandYue&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=CYandYue&count_private=true&show_icons=true&theme=default&hide_border=true">
+        <img height="150" src="https://github-readme-stats.vercel.app/api?username=CYandYue&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats"/>
+      </picture>
     </td>
   </tr>
 </table>
